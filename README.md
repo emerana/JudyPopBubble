@@ -24,6 +24,20 @@ it, simply add the following line to your Podfile:
 pod 'JudyPopBubble'
 ```
 
+## Usage
+
+
+```swift
+let judyPopBubble = JudyPopBubble()
+// 创建计时器，并以默认模式在当前运行循环中调度它。
+animateTimer = Timer.scheduledTimer(withTimeInterval: interval, repeats: true) { [weak self] timer in
+    if let strongSelf = self {
+        let image = UIImage(named: imageNames[NSInteger(arc4random_uniform( UInt32((imageNames.count)) ))])
+        judyPopBubble.judy_popBubble(withImage: image, inView: strongSelf.view, belowSubview: strongSelf.likeButton)
+    }
+}
+```
+
 ## Author
 
 醉翁之意, Judy_u@163.com
