@@ -8,7 +8,21 @@
 
 import UIKit
 
+
 /// 一个气泡动画类
+///
+/// 通过在运行循环中不断调度 judy_popBubble 函数以达到不断有气泡往上升的动画效果，可参考如下代码：
+///
+/// ```
+/// let judyPopBubble = JudyPopBubble()
+/// // 创建计时器，并以默认模式在当前运行循环中调度它。
+/// animateTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [weak self] timer in
+///     if let strongSelf = self {
+///         let image = UIImage(named: imageNames[NSInteger(arc4random_uniform( UInt32((imageNames.count)) ))])
+///         judyPopBubble.judy_popBubble(withImage: image, inView: strongSelf.view, belowSubview: strongSelf.likeButton)
+///     }
+/// }
+/// ```
 /// - version: 1.0
 /// - date: 2020年10月23日
 /// - warning: 通过调用 judy_popBubble 函数来弹出一个气泡动画
