@@ -12,7 +12,7 @@ import UIKit
 /// - version: 1.0
 /// - date: 2020年10月23日
 /// - warning: 通过调用 judy_popBubble 函数来弹出一个气泡动画
-class JudyPopBubble {
+public class JudyPopBubble {
     
     /// 指定气泡的中心点，默认为 bubble_belowView 的中心点
     public var bubble_image_Center: CGPoint?
