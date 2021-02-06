@@ -1,0 +1,6 @@
+framework module Pods_JudyPopBubble_Example {
+  umbrella header "Pods-JudyPopBubble_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - JudyPopBubble (0.1.0)
+
+DEPENDENCIES:
+  - JudyPopBubble (from `../`)
+
+EXTERNAL SOURCES:
+  JudyPopBubble:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JudyPopBubble: 7401320c639184496bf5e0db53ad1695ff4277ad
+
+PODFILE CHECKSUM: aac50f08a8efc7817616478ea06ec931a755adf6
+
+COCOAPODS: 1.10.1

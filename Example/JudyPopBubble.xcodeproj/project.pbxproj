@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09B0791C3C95B991D8DB5091 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		09B0791C3C95B991D8DB5091 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		47DCB00D75F7E786B797525E /* Pods_JudyPopBubble_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JudyPopBubble_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5935C3C9EA0F8261D7F22E9F /* Pods_JudyPopBubble_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JudyPopBubble_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* JudyPopBubble_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JudyPopBubble_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,10 +41,10 @@
 		607FACE51AFB9204008FA782 /* JudyPopBubble_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JudyPopBubble_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A49CF536831198C9A5A873D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A49CF536831198C9A5A873D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C42469AB6DB7CDF337198D54 /* Pods-JudyPopBubble_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JudyPopBubble_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JudyPopBubble_Tests/Pods-JudyPopBubble_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F1137E7D841C91B3FFA743B4 /* Pods-JudyPopBubble_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JudyPopBubble_Example.debug.xcconfig"; path = "Target Support Files/Pods-JudyPopBubble_Example/Pods-JudyPopBubble_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F80F6C1721F576AF7E33D928 /* JudyPopBubble.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JudyPopBubble.podspec; path = ../JudyPopBubble.podspec; sourceTree = "<group>"; };
+		F80F6C1721F576AF7E33D928 /* JudyPopBubble.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JudyPopBubble.podspec; path = ../JudyPopBubble.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FEFF0DD6B8E6FB9FE5007C39 /* Pods-JudyPopBubble_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JudyPopBubble_Tests.release.xcconfig"; path = "Target Support Files/Pods-JudyPopBubble_Tests/Pods-JudyPopBubble_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FF5A12142469BD84754EEE03 /* Pods-JudyPopBubble_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JudyPopBubble_Example.release.xcconfig"; path = "Target Support Files/Pods-JudyPopBubble_Example/Pods-JudyPopBubble_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				C42469AB6DB7CDF337198D54 /* Pods-JudyPopBubble_Tests.debug.xcconfig */,
 				FEFF0DD6B8E6FB9FE5007C39 /* Pods-JudyPopBubble_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
